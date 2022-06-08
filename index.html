@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--Page Loader Start-->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--Page Loader End-->
+
+<!--Background Circles Start-->
+<div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+</div>
+<!--Background Circles End-->    
+
+<!--Overlay Start-->
+<div class="overlay"></div>
+<!--Overlay End-->    
+
+<!--Main Start-->
+    <div class="main hidden">
+
+        <!--Header Start-->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about" class="nav-item link-item">About</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--Header End-->
+
+        <!--Home Section Start-->
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1>Dipesh Kumar</h1>
+                        <h2>Frontend Web Developer</h2>
+                        <a href="#about" class="btn link-item">About Me</a>
+                        <a href="#portfolio" class="btn link-item">Portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="profile-img.jpg" alt="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Home Section End-->
+
+        <!--About Section Start-->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="profile-img.jpg" alt="about img">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>A self-motivated and hard working individual with a great passion for Web Development. I am responsible and
+                            collaborate seamlessly in a teamwork environment. Looking for a Full-time position in the industry in which I
+                            can put into practice my knowledge and experience, ultimately benefiting the organisation.</p>
+                        <h3>Skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">Bootstrap</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">ReactJS</div>
+                        </div>
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">Education</button>
+                            <button type="button" class="tab-item" data-target="#experience">Experience</button>
+                        </div>
+
+                        <!--Education Start-->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2019 - 2023</span>
+                                    <h4>Bachelor Of Technology  - <span>Lovely Professional University</span></h4>
+                                    <p>[Computer Science and Technology]</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2018 - 2019</span>
+                                    <h4>Intermediate - <span>De Paul Sr. Sec. School</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2016 - 2017</span>
+                                    <h4>Matriculation - <span>De Paul Sr. Sec. School</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Education End-->
+
+                        <!--Experience Start-->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2021 - 2021</span>
+                                    <h4>Web Developer and Research UI/UX Internship - <span>Axpexx Health Solutions Private Limited</span></h4>
+                                    <p>Developed the Web Page of Doctors and Patients for the website of cureya.
+                                    Successfully designed the Sign Up and Login form for Doctors and Patients.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Experience End-->
+                        <a href="CV.pdf" target="_blank" class="btn">Download CV</a>
+                        <a href="#contact" class="btn link-item">Contact Me</a>
+                    </div>
+                </div>    
+            </div>
+
+        </section>
+        <!--About Section End-->
+
+        <!--Portfolio Section Start-->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Recent Work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Portfolio Item Start-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="WeatherApp-img.png" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Weather App</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>A complete dynamic Weather Website created using Real- Time Weather API which displays the current day weather forecast with respect to different timings.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>9 May 2022</span></li>
+                                    <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Live - <span><a href="https://kumar-dipesh.github.io/WeatherApp.github.io/" target="_blank">www.weatherapp.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <!--Portfolio Item End-->
+                       <!--Portfolio Item Start-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="PortfolioWebsite-img.png" alt="portfolio item thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">GlassMorphism Portfolio Website</h3>
+                        <button type="button" class="btn view-project-btn">View Project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>Created a fully Responsive, Modern and Creative Personal Portfolio Website with glass effect.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>18 April 2022</span></li>
+                                    <li>Technologies Used - <span>HTML, CSS, JavaScript</span></li>
+                                    <li>Role - <span>Frontend</span></li>
+                                    <li>View Live - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <!--Portfolio Item End-->
+                </div>
+            </div>
+        </section>
+        <!--Portfolio Section End-->
+
+        <!-- Contact Section Start-->
+        <section class="contact-section sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-tilte">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>example@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone No.</h3>
+                            <p>9198******</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/dipesh99" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/kumar-dipesh" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End-->
+
+    </div>
+    <!--Main End-->
+
+    <!--Portfolio Item Details Popup Start-->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="WeatherApp-img.png" alt="pp-thumbnail">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Item Details Popup End-->
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
